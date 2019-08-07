@@ -1,4 +1,3 @@
-const shuffleBtn = document.querySelector('#shuffle')
 const cardRank = document.querySelector('#card-rank')
 const cardSuit = document.querySelectorAll('#card-suit')
 const cardProp = document.querySelectorAll('[name="card-prop"]')
