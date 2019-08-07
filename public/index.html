@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <h1>Deck o' Cards</h1>
+    <button onclick="displayInitialDeck()">Click me</button>
+    <div id="card-container">
+      <p id="card-suit"></p>
+      <p id="card-rank"></p>
+    </div>
+    <button id="shuffle" onclick="shuffle()">Shuffle</button>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
